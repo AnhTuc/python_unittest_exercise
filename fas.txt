@@ -1,0 +1,58 @@
+Review #1
+=========================================
+ctr-c : handle exception with ctr+c ==================> done
+-->player name --> class player --> multi players ?????????
+
+in list ==================> let me think about it
+stack k can thiet ================> done
+ham dai <=20~30 line ================> done
+
+      
+try excepiton ==================> done
+chia nho file ====> done
+draw a card on terminal =========> done
+define 1 decorator ms =========> done
+
+venv python ===========> somehow
+
+
+card game:
+class: card game, player,  deck
+
+input: not start game
+output: score and win or loss
+
+list of player --> how many players --> input names 
+take turns each player
+
+--> assign cards --> show house's card -->  get answer each --> score each
+deck deal_card, 
+
+
+
+=======================================
+Review #2
+=======================================
+\log info
+
+
+question ctr+c  --> done
+
+
+
+1, Dockerfile, build image, run container, push image to docker hub -----------> done
+
+command line to pull docker image
+command line to run container
+
+1.b improve code test case:
+Mock test with attribute return_value
+Problem: If function has 5 step, using return_value for step 2,3,4
+
+
+2, tokenizer algorithm English
+token 1 doan van ban bang tieng anh
+chung nghia
+
+
+==========================================
