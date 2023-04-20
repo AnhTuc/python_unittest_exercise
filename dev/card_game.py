@@ -140,7 +140,7 @@ class CardGame:
 
             else:
                 print("Your guess is incorrect!\nYou lose %d reward points\n"%player.tmp_reward)
-                time.sleep(2)
+                # time.sleep(2)
                 player.tmp_reward = 0
                 break
     

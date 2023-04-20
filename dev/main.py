@@ -4,16 +4,18 @@ from dev.card_game import CardGame
 import time
 import logging
 
-# @handle_exception
+@handle_exception
 def game_continue(house = CardGame(), player = Player(name ='')):
     if not check_game_over(player.score):
         s_or_c = process_input(input("Do you want to to close game? (stop(s) to stop game)."),['stop'])
         if s_or_c == 'stop':
             try:
+                tmp =check_game_over(player.score + player.tmp_reward/2)
                 print("Closing card game...")
                 sys.exit(1)
             except SystemExit:
                 os._exit(1)
+            
             #sys.exit(1)
         else:
             print("Retrieve game ...\n"+"."*20)
